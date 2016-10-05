@@ -26,7 +26,10 @@ export class LoginComponent implements OnInit {
     this.page.backgroundImage = "res://bg_login";
   }
 
+
+
   submit() {
+    
     if (this.isLoggingIn) {
       this.login();
     } else {
